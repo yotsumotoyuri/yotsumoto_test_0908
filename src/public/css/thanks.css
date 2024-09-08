@@ -1,0 +1,55 @@
+.thanks{
+    margin: 0 auto;
+    position: relative;
+    height: 700px;
+}
+
+.thanks__ttl {
+    display: inline-block;
+    position: absolute;
+    font-size: 32px;
+    color: #94846a;
+    text-transform: capitalize;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.thanks__ttl::before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "Thank you";
+    z-index: -1;
+    color: rgba(148,132,106,0.15);
+    font-size: 5em;
+    width: 100%;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+    text-transform: none;
+}
+
+/*ヘッダー*/
+.header{
+    display: none;
+}
+
+/*homeボタン*/
+.form__button-home {
+    margin: auto 20px;
+    padding: 5px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #94846a;
+    color: #fcfcfc;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.mg-150 {
+    margin-top: -200px;
+}

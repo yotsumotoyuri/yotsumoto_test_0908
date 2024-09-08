@@ -1,0 +1,30 @@
+.mg50 {
+    background-color: #f7f6f5;
+}
+
+.form__register{
+    font-size: 32px;
+}
+
+.form__block-bac{
+    background-color: #fcfcfc;
+    border-radius: 3px;
+    border: 1px #94846a solid;
+}
+
+.form__block{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form__block-ttl{
+    font-size: 20px;
+}
+
+.form__block-content input{
+    width: 500px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 3px;
+    padding: 10px;
+}

@@ -1,0 +1,106 @@
+body{
+    font-size: 18px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    color: #94846a;
+}
+
+.w1600 {
+    max-width: 1600px;
+    width: 96%;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.pd50 {
+    padding: 50px 0;
+}
+
+.pd10{
+    padding: 10px;
+}
+
+/*ヘッダー*/
+.header{
+    border-bottom:1px #94846a solid;
+}
+
+.header__logo{
+    color: #94846a;
+    font-size: 36px;
+    text-decoration: none;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+}
+
+/*タイトル*/
+.top__ttl {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+    color: #94846a;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+/*フォーム*/
+.form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*送信ボタン*/
+.form__button {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form__button-submit {
+    margin: auto 20px;
+    padding: 5px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: #94846a;
+    color: #fcfcfc;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.form__button-fix {
+    width: 20%;
+    border: none;
+    color: #94846a;
+    font-size: 18px;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: #94846a;
+}
+
+/*ヘッダー内にあるボタン*/
+.header__button{
+    text-align: right;
+    margin:-80px auto 30px;
+}
+
+.header_button-submit{
+    padding: 5px;
+    width: 15%;
+    height: 50px;
+    border: 1px solid #94846a;
+    border-radius: 3px;
+    background-color: rgb(231, 231, 231);
+    color: #94846a;
+    font-size: 18px;
+    text-transform: lowercase;
+
+}
+
+/*背景色*/
+.form__color{
+    background-color: #ede4cd;
+}

@@ -1,0 +1,99 @@
+
+/*フォーム*/
+.form__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form__group-content {
+    width: 70%;
+}
+
+.form__group-ttl {
+    width: 20%;
+}
+
+.form__input--txt input,
+.form__input--textarea textarea{
+    width: 100%;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.form__input--name{
+    display: flex;
+    justify-content: space-between;
+}
+.form__input--name input{
+    width: 45%;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.form__input--tel{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__input--tel input{
+    width: 30%;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form__input--radio label{
+    margin-right: 20px;
+}
+
+.form__input--radio input:checked{
+    accent-color: #94846a;
+}
+
+.form__label--after::after{
+    content: "※";
+    color: red;
+    margin-left: 10px;
+}
+
+.form__input--select select{
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 3px;
+    padding: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    color: rgb(148,132,106,0.6);
+}
+
+.form__input--select{
+    position: relative;
+    width: 50%;
+}
+
+.form__input--select::after{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    width: 12px;
+    height: 12px;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid #94846a;
+    border-bottom: 0;
+}
+
+::placeholder {
+    color: #94846a;
+}
